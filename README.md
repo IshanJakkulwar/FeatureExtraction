@@ -4,7 +4,7 @@
 
 ---
 
-## 🩻 Overview
+## Overview
 
 This project investigates whether **osteoporosis produces detectable radiographic texture changes** in **trabecular-rich spine bone** but not in **cortical-rich knee bone**.
 Rather than comparing model accuracies, this study uses a pretrained convolutional neural network (**EfficientNet-B0**) solely as a **feature extractor** to test a **biological hypothesis** about bone microarchitecture.
@@ -13,7 +13,7 @@ The project is designed to align with **Journal of Emerging Investigators (JEI)*
 
 ---
 
-## 🔬 Scientific Hypothesis
+## Scientific Hypothesis
 
 > **We hypothesised that osteoporosis produces measurable radiographic texture changes in trabecular-rich spine bone but not in cortical-rich knee bone.**
 
@@ -21,7 +21,7 @@ This was tested by extracting deep imaging features from radiographs of the knee
 
 ---
 
-## 🧠 Rationale
+## Rationale
 
 Osteoporosis affects **trabecular bone** more severely than **cortical bone** because of its porous, metabolically active structure.
 Radiographs of the spine (mostly trabecular) should therefore show greater textural differences between normal and osteoporotic bone compared to the knee (mostly cortical).
@@ -29,7 +29,7 @@ This difference can be detected through statistical analysis of deep visual feat
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 FeatureExtraction/
@@ -40,7 +40,7 @@ FeatureExtraction/
 
 ---
 
-## ⚙️ Methods Summary
+## Methods Summary
 
 1. **Dataset:**
 
@@ -62,7 +62,7 @@ FeatureExtraction/
 
 ---
 
-## 📊 Results Summary
+## Results Summary
 
 | Site  | N   | Normal (Mean PC1) | Osteoporotic (Mean PC1) | t     | p-value | Interpretation                 |
 | ----- | --- | ----------------- | ----------------------- | ----- | ------- | ------------------------------ |
@@ -74,13 +74,13 @@ FeatureExtraction/
 
 ---
 
-## 📈 Figures
+## Figures
 
 **Figure 1.** PCA scatter plots showing the separation of normal and osteoporotic cases in spine (A) and knee (B). Spine radiographs demonstrate greater divergence along PC1 compared to knee.
 
 ---
 
-## 🔍 Key Findings
+## Key Findings
 
 * Deep features extracted from radiographs can detect **biologically meaningful texture changes** associated with osteoporosis.
 * Differences are **site-specific**, appearing in trabecular-rich bone (spine) but not in cortical-rich bone (knee).
@@ -88,7 +88,7 @@ FeatureExtraction/
 
 ---
 
-## 🚀 Future Work
+## Future Work
 
 * Increase dataset size and balance between normal and osteoporotic cases.
 * Extend analysis to other sites (e.g., hip, wrist).
@@ -97,7 +97,7 @@ FeatureExtraction/
 
 ---
 
-## 🧾 References
+## References
 
 1. Sozen, T., et al. “Management of Osteoporosis.” *European Journal of Rheumatology*, 2019.
 2. Blake, G. M., & Fogelman, I. “The Role of DXA Bone Density Scans in the Diagnosis and Treatment of Osteoporosis.” *Postgraduate Medical Journal*, 2007.
@@ -108,14 +108,10 @@ FeatureExtraction/
 
 ---
 
-## 👩‍🔬 Author
+## Author
 
 Developed by **Ishan Jakkulwar**,
 Queen Elizabeth’s School Barnet
 Under the mentorship of **Kiran Deglurkar**
 
 Contact: [ishan.jakkulwar@gmail.com](mailto:ishan.jakkulwar@gmail.com)
-
----
-
-Would you like me to include a **"Reproducibility"** section (with setup commands, Python version, and libraries) so that it reads like a professional research repo *and* aligns with JEI’s reproducibility expectations?
