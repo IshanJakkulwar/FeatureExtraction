@@ -9,7 +9,7 @@
 This project investigates whether **osteoporosis produces detectable radiographic texture changes** in **trabecular-rich spine bone** but not in **cortical-rich knee bone**.
 Rather than comparing model accuracies, this study uses a pretrained convolutional neural network (**EfficientNet-B0**) solely as a **feature extractor** to test a **biological hypothesis** about bone microarchitecture.
 
-The project is designed to align with **Journal of Emerging Investigators (JEI)** guidelines for hypothesis-driven research, using computational tools to answer a **scientific question** rather than optimize a machine learning model.
+The project is designed to align with **Journal of Emerging Investigators (JEI)** guidelines for hypothesis-driven research, using computational tools to answer a **scientific question** rather than optimise a machine learning model.
 
 ---
 
@@ -32,7 +32,7 @@ This difference can be detected through statistical analysis of deep visual feat
 ## 📁 Project Structure
 
 ```
-ISEF_JSHS/
+FeatureExtraction/
 │
 ├── code_osteoporosis_produces_detectable_radiographic_texture_changes_in_trabecular_rich_spine_bone_compared_to_cortical_rich_knee_bone (2).py     
 └── README.md
@@ -104,6 +104,7 @@ ISEF_JSHS/
 3. Ranjan, R., et al. “Trabecular Bone Microarchitecture in Osteoporosis: A Review.” *Bone Reports*, 2021.
 4. Tan, M., & Le, Q. “EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks.” *ICML*, 2019.
 5. Lang, T. F. “The Bone Density Paradox: Cortical vs. Trabecular Bone in Osteoporosis.” *Osteoporosis International*, 2011.
+6. ..and more!(see paper)
 
 ---
 
